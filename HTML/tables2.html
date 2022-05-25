@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+  </head>
+  <style>
+    th,
+    td {
+      border: 1px double rgb(255, 255, 255);
+
+      padding: 5px;
+      font-weight: bold;
+      background-color: aqua;
+    }
+
+    table {
+      width: 90%;
+      text-align: center;
+    }
+
+    p {
+      font-weight: 600;
+      font-size: 18px;
+    }
+
+    h1,
+    p {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      text-align: center;
+    }
+
+    #subjects {
+      background-color: rgb(80, 80, 228);
+    }
+    th {
+      background-color: rgb(80, 80, 228);
+      color: black;
+      padding: 5px;
+      text-decoration: underline;
+    }
+  </style>
+  <body>
+    <section>
+      <header>
+        <h1>St. Benedict High School</h1>
+      </header>
+
+      <caption>
+        <p>Class: S.S.S 2</p>
+        <p>Class Teacher: Mr. Ade</p>
+      </caption>
+    </section>
+
+    <table class="styled-table" align="center">
+      <tr>
+        <th rowspan="2">S/N</th>
+        <th rowspan="2">NAMES</th>
+        <th colspan="5">SUBJECTS</th>
+        <th rowspan="2">TOTAL SCORES</th>
+      </tr>
+
+      <tr id="subjects">
+        <td>Mathematics</td>
+        <td>English</td>
+        <td>Physics</td>
+        <td>Chemistry</td>
+        <td>Biology</td>
+      </tr>
+
+      <tr>
+        <td class="S/N">1.</td>
+        <td>Adekunle</td>
+        <td>72</td>
+        <td>43</td>
+        <td>78</td>
+        <td>73</td>
+        <td>37</td>
+        <td>303</td>
+      </tr>
+
+      <tr>
+        <td class="S/N">2.</td>
+        <td>John</td>
+        <td>42</td>
+        <td>64</td>
+        <td>70</td>
+        <td>55</td>
+        <td>58</td>
+        <td>289</td>
+      </tr>
+
+      <tr>
+        <td class="S/N">3.</td>
+        <td>Peter</td>
+        <td>62</td>
+        <td>40</td>
+        <td>73</td>
+        <td>75</td>
+        <td>99</td>
+        <td>349</td>
+      </tr>
+
+      <tr>
+        <td class="S/N">4.</td>
+        <td>Rukayat</td>
+        <td>77</td>
+        <td>75</td>
+        <td>78</td>
+        <td>75</td>
+        <td>82</td>
+        <td>387</td>
+      </tr>
+
+      <tr>
+        <td class="S/N">5.</td>
+        <td>Paul</td>
+        <td>72</td>
+        <td>40</td>
+        <td>72</td>
+        <td>70</td>
+        <td>97</td>
+        <td>351</td>
+      </tr>
+
+      <tr>
+        <td class="S/N">6.</td>
+        <td>Victor</td>
+        <td>76</td>
+        <td>64</td>
+        <td>48</td>
+        <td>99</td>
+        <td>37</td>
+        <td>324</td>
+      </tr>
+
+      <tr>
+        <td class="S/N">7.</td>
+        <td>John</td>
+        <td>62</td>
+        <td>54</td>
+        <td>78</td>
+        <td>75</td>
+        <td>64</td>
+        <td>333</td>
+      </tr>
+
+      <tr>
+        <td class="S/N">8.</td>
+        <td>Doe</td>
+        <td>52</td>
+        <td>84</td>
+        <td>48</td>
+        <td>85</td>
+        <td>27</td>
+        <td>296</td>
+      </tr>
+
+      <tr>
+        <td class="S/N">9.</td>
+        <td>Stephen</td>
+        <td>92</td>
+        <td>44</td>
+        <td>78</td>
+        <td>65</td>
+        <td>61</td>
+        <td>340</td>
+      </tr>
+    </table>
+  </body>
+</html>
