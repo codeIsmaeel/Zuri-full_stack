@@ -1,0 +1,4 @@
+We have been asked to count the number of words in a text file, 
+kind of overwhelming cos, 
+I am still trying tp wrap my head around python syntaxes, 
+I am positive though.
