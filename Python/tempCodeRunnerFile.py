@@ -1,1 +1,1 @@
-onversion = False
+return sorted(word) == sorted(anagram)
