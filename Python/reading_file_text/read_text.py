@@ -16,7 +16,7 @@ def read_file_content(filename):
 def count_words(file):
     with open('story.txt', 'r') as j:
         single_word = j.split(' ')
-        word_count = text.count
+        word_count = single_word.count
     # lib_count = word_count.__dict__
         return word_count
 
