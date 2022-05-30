@@ -14,7 +14,7 @@ def find_anagram(word, anagram):
     sorted_anagram = sorted(anagram)
 
     if len(word) == len(anagram):
-        if word.islower == anagram.islower:
+        if word.upper == anagram.upper:
 
             if sorted_word == sorted_anagram:
                 return True
