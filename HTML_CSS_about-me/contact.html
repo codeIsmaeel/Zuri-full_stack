@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./style.css" class="stylesheet" />
+  </head>
+
+  <body>
+    <header id="main-header">
+      <div class="container">
+        <h1>Ismail Adebola Qasim</h1>
+      </div>
+    </header>
+
+    <nav id="navbar">
+      <div class="container">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./reg_page.html">Registration Page</a></li>
+          <li><a class="nav" href="./login.html">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h2>Leave me a Message</h2>
+
+      <form action="submit" class="my-form">
+        <div class="form-group">
+          <label for="" name>Name:</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="Email">Email:</label>
+          <input
+            type="text"
+            name="email"
+            placeholder="Enter your email"
+            pattern="/^[a-zA-Z0-9.!#£$%^&*_+`][@'"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="Message">Message:</label>
+          <textarea type="text" name="Message" id="">
+Enter your Message</textarea
+          >
+        </div>
+
+        <input class="button" type="Submit" value="submit" />
+      </form>
+    </div>
+  </body>
+</html>

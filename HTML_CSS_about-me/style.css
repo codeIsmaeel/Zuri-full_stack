@@ -1,0 +1,194 @@
+body {
+  background-color: rgb(236, 233, 229);
+  color: rgb(36, 35, 35);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#main-header {
+  background-color: rgb(20, 4, 92);
+  color: white;
+  /* text-align: center; */
+  word-spacing: 1.5em;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar {
+  background-color: aqua;
+  color: white;
+}
+
+#navbar ul {
+  padding: 0;
+  list-style: none;
+}
+
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  color: midnightblue;
+  text-decoration: none;
+  font-size: 19px;
+  padding-right: 30px;
+  font-weight: bolder;
+}
+
+h2 {
+  color: rgb(20, 4, 92);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.about-me {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.about-me h2 {
+  background-color: aqua;
+  padding: 15px;
+}
+
+.about-me p {
+  padding: 8x;
+}
+
+#main {
+  float: left;
+  width: 65%;
+  box-sizing: border-box;
+}
+
+#side-bar {
+  float: right;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.clr {
+  clear: both;
+}
+
+.hobbies {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.hobbies h2 {
+  background-color: aqua;
+  padding: 15px;
+}
+
+.hobbies ul {
+  list-style-type: square;
+}
+
+.hobbies li {
+  padding: 8px;
+}
+
+.priorities {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.priorities h2 {
+  background-color: aqua;
+  padding: 15px;
+}
+
+.priorities ol {
+  list-style: lower-roman;
+}
+
+.priorities li {
+  padding: 8px;
+}
+
+.other-skills {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.other-skills h2 {
+  background-color: aqua;
+  padding: 15px;
+}
+
+.other-skills ul {
+  list-style-type: square;
+}
+
+.other-skills li {
+  padding: 8px;
+}
+
+.button {
+  background-color: rgb(20, 4, 92);
+  color: aqua;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#bttn {
+  position: fixed;
+  top: 400px;
+}
+
+#footer {
+  background-color: rgb(20, 4, 92);
+  color: white;
+  text-align: center;
+}
+
+.my-form {
+  padding: 20px;
+  text-align: center;
+}
+
+.form-group {
+  padding-bottom: 30px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea,
+.my-form select {
+  padding: 10px;
+  width: 45%;
+  border-radius: 8px;
+}
+
+.my-form label {
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 6px;
+  color: rgb(20, 4, 92);
+}

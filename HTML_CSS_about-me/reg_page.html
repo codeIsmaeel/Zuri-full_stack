@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="main-header">
+      <div class="container">
+        <h1>Ismail Adebola Qasim</h1>
+      </div>
+    </header>
+
+    <nav id="navbar">
+      <div class="container">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./contact.html">Contact Me</a></li>
+          <li><a class="nav" href="./login.html">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h2>Please fill in your details.</h2>
+
+      <!-- first Name
+    last Name
+    phone
+    gender (dropdown)
+    country
+    state/province
+    email
+    password
+    confirm password -->
+
+      <form action="submit" method="get" class="my-form">
+        <div class="form-group">
+          <label for="fname">First Name:</label>
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="Enter First name"
+          />
+        </div>
+        <div class="my-form">
+          <label for="lname">Last Name:</label>
+          <input
+            type="text"
+            name="lname"
+            id="lname"
+            placeholder="Enter Last name"
+          />
+        </div>
+        <div class="my-form">
+          <label for="Pnum">Phone Number:</label>
+          <input
+            type="text"
+            name="Pnum"
+            id="Pnum"
+            placeholder="Enter valid telephone number"
+          />
+        </div>
+        <div class="my-form">
+          <label for="gender">Gender:</label>
+          <select name="gender" id="">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <div class="my-form">
+          <label for="country">Country:</label>
+          <input
+            type="text"
+            name="country"
+            id="country"
+            placeholder="where are you from?"
+          />
+        </div>
+        <div class="my-form">
+          <label for="location">State/Province:</label>
+          <input
+            type="text"
+            name="location"
+            id="location"
+            placeholder="Enter your Province/City"
+          />
+        </div>
+        <div class="my-form">
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Enter a valid Email"
+            pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+          />
+        </div>
+        <div class="my-form">
+          <label for="pswd">Choose a Password:</label>
+          <input
+            type="text"
+            name="pswd"
+            id="pswd"
+            placeholder="Choose an 8-digit Password"
+            pattern="(?=.*/d) (?=.*[a-z]) (?=.[A-Z]) . {8,}"
+            title="Must contain at least one number and one upercase letter, and at least 8 or more characters"
+          />
+        </div>
+        <div class="my-form">
+          <label for="pswd">Confirm your Password:</label>
+          <input
+            type="text"
+            name="pswd"
+            id="pswd"
+            placeholder="Confirm your Password"
+            pattern="(?=.*/d) (?=.*[a-z]) (?=.[A-Z]) . {8,}"
+            title="Must contain at least one number and one upercase letter, and at least 8 or more characters"
+          />
+        </div>
+
+        <input type="Submit" value="Submit" class="button" />
+      </form>
+    </div>
+  </body>
+</html>
