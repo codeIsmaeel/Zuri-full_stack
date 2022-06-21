@@ -1,0 +1,1 @@
+document.write("My name is Ismail, I am 5.6ft tall, and I am from Nigeria")
