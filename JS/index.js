@@ -1,1 +1,0 @@
-document.write("My name is Ismail. I am 5.6ft tall. I am from Nigeria.");
